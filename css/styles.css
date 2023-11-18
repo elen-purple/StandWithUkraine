@@ -1,0 +1,185 @@
+:root {
+  --yellow: #ffe600;
+  --blue: #0057ff;
+  --orange: #ff9900;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-blue: #1a1b2c;
+  --grey: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  font-family: "Aclonica", sans-serif;
+}
+
+*::selection {
+  background-color: var(--blue);
+  color: var(--yellow);
+}
+
+.container {
+  width: 1316px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* outline: red dashed 3px; */
+}
+
+.header {
+  padding-top: 12px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  display: flex;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -0.96px;
+}
+
+.header-text {
+  color: var(--black);
+}
+
+.header-blue {
+  color: var(--blue);
+}
+
+.header-yellow {
+  color: var(--orange);
+}
+
+.main {
+}
+
+.hero {
+  padding-top: 232px;
+  padding-bottom: 252px;
+  background-image: url(../img/hero-background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-before {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-before::before {
+  content: "";
+  width: 17px;
+  height: 306px;
+  display: block;
+  background-image: linear-gradient(
+    to bottom,
+    var(--blue) 50%,
+    var(--yellow) 50%
+  );
+}
+
+.hero-title {
+  color: var(--white);
+  font-size: 90px;
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  width: 869px;
+}
+
+.destination {
+  padding-top: 88px;
+  padding-bottom: 108px;
+}
+
+.destination-title {
+  color: var(--black);
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  margin-bottom: -7px;
+}
+
+.destination-before::after {
+  content: "";
+  width: 440px;
+  height: 26px;
+  display: block;
+  background-image: linear-gradient(
+    to bottom,
+    var(--blue) 50%,
+    var(--yellow) 50%
+  );
+}
+
+.destination-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.destination-item {
+  border-radius: 30px;
+  background: var(--white);
+  box-shadow: 0px 20px 21.5px 4px rgba(0, 0, 0, 0.25);
+  width: 359px;
+}
+
+.destination-item:hover {
+  box-shadow: 0px 20px 21.5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.destination-img {
+}
+
+.destination-wrap {
+  padding: 20px 7.5px 54px;
+}
+
+.destination-subtitle {
+  color: var(--black);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -0.64px;
+  height: 119px;
+  margin-bottom: 8px;
+}
+
+.destination-subtitle:hover {
+  color: var(--blue);
+}
+
+.destination-desc {
+  color: var(--grey);
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+}
+
+.ukraine {
+}
+.ukraine-title {
+}
+.ukraine-img {
+}
+.ukraine-link {
+}
+.footer {
+}
+.footer-logo {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
+.footer-icons {
+}
+.footer-icon {
+}
+.footer-run {
+}
+.footer-img {
+}
