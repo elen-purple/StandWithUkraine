@@ -90,7 +90,7 @@ body {
 
 .destination {
   padding-top: 88px;
-  padding-bottom: 108px;
+  padding-bottom: 54px;
 }
 
 .destination-title {
@@ -98,7 +98,6 @@ body {
   font-size: 64px;
   font-weight: 400;
   letter-spacing: -2%;
-  margin-bottom: -7px;
 }
 
 .destination-before::after {
@@ -158,28 +157,115 @@ body {
 }
 
 .ukraine {
+  padding-top: 54px;
+  padding-bottom: 82px;
 }
+
 .ukraine-title {
+  color: var(--black);
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: -1.28px;
 }
+
+.ukraine-before {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ukraine-before::after {
+  content: "";
+  width: 511px;
+  height: 26px;
+  display: block;
+  background-image: linear-gradient(
+    to bottom,
+    var(--blue) 50%,
+    var(--yellow) 50%
+  );
+}
+
 .ukraine-img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
+
 .ukraine-link {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--blue);
+  color: var(--yellow);
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  width: 393px;
+  border-radius: 60px;
+  padding: 23px 0;
+  text-align: center;
 }
+
 .footer {
+  background-color: var(--dark-blue);
+  padding-top: 26px;
+  padding-bottom: 37px;
 }
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-logo {
+  display: flex;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -0.96px;
+  margin-bottom: 44px;
 }
+
+.footer-text {
+  color: var(--white);
+}
+
+.footer-blue {
+  color: var(--blue);
+}
+
+.footer-yellow {
+  color: var(--orange);
+}
+
 .footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
 }
+
 .footer-item {
 }
+
 .footer-link {
+  color: rgba(255, 255, 255, 0.21);
+  font-size: 24px;
+  font-weight: 400;
 }
+
 .footer-icons {
+  margin-top: 23px;
+  display: flex;
+  gap: 20px;
 }
+
 .footer-icon {
 }
+
 .footer-run {
 }
+
 .footer-img {
 }
